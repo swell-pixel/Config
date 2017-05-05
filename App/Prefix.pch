@@ -1,0 +1,12 @@
+//
+//  Prefix.pch
+//
+//  Created by Alexey Yakovlev on 04/08/2017.
+//
+
+#ifdef __OBJC__
+ #import <UIKit/UIKit.h>
+ #import <objc/runtime.h>
+ #import "FXForms/FXForms.h"
+ #import "Firebase.h"
+#endif
