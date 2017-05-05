@@ -54,6 +54,8 @@ class App: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate
     {
         Trace.print(App.nameVersionBuild)
         LOG("App.didFinishLaunchingWithOptions")
+        
+        UINavigationBar.appearance().barTintColor = UIColor(0xff8a80) //red A100
 
         let master = UINavigationController(rootViewController: Config());
         let detail = UINavigationController(rootViewController:  Trace());
